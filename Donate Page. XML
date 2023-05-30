@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DonatePage"
+    android:background="@drawable/peakpx">
+
+    <Button
+        android:id="@+id/insert19s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="286dp"
+        android:layout_marginRight="286dp"
+        android:layout_marginBottom="258dp"
+        android:text="Insert" />
+
+    <Button
+        android:id="@+id/update19s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="159dp"
+        android:layout_marginRight="159dp"
+        android:layout_marginBottom="256dp"
+        android:text="Update" />
+
+    <Button
+        android:id="@+id/delete19s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:layout_marginBottom="258dp"
+        android:text="Delete" />
+
+    <Button
+        android:id="@+id/view19s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="233dp"
+        android:layout_marginRight="233dp"
+        android:layout_marginBottom="174dp"
+        android:text="View" />
+
+    <Button
+        android:id="@+id/clear19s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="95dp"
+        android:layout_marginRight="95dp"
+        android:layout_marginBottom="175dp"
+        android:text="Clear" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="103dp"
+        android:layout_marginBottom="593dp"
+        android:ems="10"
+        android:text="Name"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="538dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Age"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/wight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="482dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Wight"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/blood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="97dp"
+        android:layout_marginBottom="419dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Blood Type"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="95dp"
+        android:layout_marginBottom="356dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Phone"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
